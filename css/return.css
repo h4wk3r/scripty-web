@@ -1,0 +1,85 @@
+.parent{  
+    display: table;
+    width: 100%;
+}
+.tab1{
+    box-sizing: border-box;
+/*    border: 1px solid #000;*/
+    height: 50px;
+    width: 33.3%;
+    display: table-cell;
+}
+.tab2{
+    box-sizing: border-box;
+/*    border: 1px solid #000;*/
+/*    height: 50px;*/
+    width: 100%;
+    display: table-cell;
+}
+.list {
+ width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.list2 {
+/* background-color:#FAFAFA;*/
+ width: 95%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.list td, .list th {
+ border: 1px solid #ddd;
+ padding: 8px;
+ }
+.list tr:nth-child(even){background-color: #f2f2f2;}
+.list tr:hover {background-color: #ddd;}
+.list td {
+ padding-top: 2px;
+ padding-bottom: 2px;
+ text-align: left;
+ color: black;
+ }
+.list th {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ text-align: left;
+ background-color: #4CAF50;
+ color: white;
+ width: 10%;
+ }
+
+.list2 td, .list2 th {
+ border: 1px solid #ddd;
+ padding: 8px;
+ }
+.list2 tr:nth-child(even){background-color: #f2f2f2;}
+.list2 tr:hover {background-color: #ddd;}
+.list2 td {
+ padding-top: 2px;
+ padding-bottom: 2px;
+ text-align: left;
+ color: black;
+ }
+.list2 th {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ text-align: left;
+ background-color: #4CAF50;
+ color: white;
+ width: 10%;
+ }
+
+h3 {
+ padding-left:10px;
+ }
+form {
+ padding-right:10px;
+ padding-left:10px;
+ }
+input[type=submit] {
+ width:100px;
+ box-shadow:1px 1px 1px;
+ cursor:pointer;
+ }
